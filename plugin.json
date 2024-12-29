@@ -1,0 +1,19 @@
+{
+    "id": "shoplogger",
+    "name": "Shop Logger",
+    "description": "A plugin to log shop transactions and user's history.",
+    "version": "1.0.0",
+    "url": "https://azuriom.com",
+    "authors": [
+        "Holo795"
+    ],
+    "dependencies": {
+        "azuriom": "^1.1.10",
+        "shop": "^1.2.9"
+    },
+    "azuriom_api": "1.1.0",
+    "providers": [
+        "\\Azuriom\\Plugin\\ShopLogger\\Providers\\ShopLoggerServiceProvider",
+        "\\Azuriom\\Plugin\\ShopLogger\\Providers\\RouteServiceProvider"
+    ]
+}
